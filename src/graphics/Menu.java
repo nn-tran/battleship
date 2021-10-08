@@ -3,14 +3,8 @@ package graphics;
 import data_container.Data;
 import data_container.ScoreKeeper;
 import javafx.geometry.Insets;
-import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.RadioButton;
-import javafx.scene.control.TextField;
-import javafx.scene.control.ToggleGroup;
+import javafx.scene.control.*;
 import javafx.scene.layout.VBox;
-import javafx.stage.Stage;
 
 public class Menu extends VBox {
 	private Data data = Data.getInstance();

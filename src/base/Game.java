@@ -1,10 +1,10 @@
 package base;
 
-import java.util.Scanner;
-
-import data_container.PlayerAI;
 import data_container.Data;
+import data_container.PlayerAI;
 import data_container.Ship;
+
+import java.util.Scanner;
 
 public class Game {
 	Scanner scanner = new Scanner(System.in);

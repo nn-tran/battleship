@@ -1,5 +1,6 @@
 package graphics;
 
+import data_container.Data;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.scene.Node;
@@ -7,7 +8,6 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.GridPane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
-import data_container.Data;
 
 public class DisplayGrid extends GridPane {
 	protected Data data = Data.getInstance();

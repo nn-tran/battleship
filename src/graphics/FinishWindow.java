@@ -1,9 +1,9 @@
 package graphics;
 
-import javafx.scene.control.Label;
-import javafx.scene.layout.Pane;
 import data_container.Data;
 import data_container.ScoreKeeper;
+import javafx.scene.control.Label;
+import javafx.scene.layout.Pane;
 
 public class FinishWindow extends Pane {
 	private Data data = Data.getInstance();

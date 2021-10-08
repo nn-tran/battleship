@@ -1,10 +1,9 @@
 package base;
 
-import java.util.Scanner;
-
 import data_container.Data;
 import data_container.Ship;
-import java.lang.String;
+
+import java.util.Scanner;
 
 public class Input {
 	private Scanner scanner = new Scanner(System.in);

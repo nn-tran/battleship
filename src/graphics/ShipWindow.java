@@ -1,15 +1,14 @@
 package graphics;
 
-import data_container.Ship;
 import data_container.Data;
-
+import data_container.Ship;
 import javafx.event.ActionEvent;
 import javafx.geometry.Insets;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
-import javafx.scene.Scene;
 
 public class ShipWindow extends Pane {
 	private Data data = Data.getInstance();

@@ -30,10 +30,10 @@ public class HShip extends Ship {
     }
 
     /**
-     * @param coly the new y collision
+     * @param colY the new y collision
      */
-    public void setCollisionY(int[] coly) {
-        this.yCollision = coly;
+    public void setCollisionY(int[] colY) {
+        this.yCollision = colY;
     }
 
 

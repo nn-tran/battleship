@@ -11,7 +11,6 @@ public class GameGUI extends Application {
     Scene fireWindowScene;
     Scene finishWindowScene;
 
-
     Menu menu;
     ShipWindow shipWindow;
     FireWindow fireWindow;

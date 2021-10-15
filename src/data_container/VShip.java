@@ -29,12 +29,11 @@ public class VShip extends Ship {
 	}
 
 	/**
-	 * @param colx the new x collision
+	 * @param colX the new x collision
 	 */
-	public void setCollisionX(int[] colx) {
-		this.xCollision = colx;
+	public void setCollisionX(int[] colX) {
+		this.xCollision = colX;
 	}
-
 
 	/**
 	 * Updater, set coordinates for collision checks
